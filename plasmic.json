@@ -1,0 +1,84 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "aqT6b598qEnuVz5aJFvbi7",
+      "projectApiToken": "08xqOHZyKU8txPwkJClTJOeh7pOHJNrr4VNBr535ujn5Kz2vvoy7oI84Suap3haqa9YXW3lc8YSNJr5QDuOPxw",
+      "projectName": "悠悦易存",
+      "version": "latest",
+      "cssFilePath": "plasmic/悠悦易存/plasmic_悠悦易存.module.css",
+      "components": [
+        {
+          "id": "0D6TFNtMAQIU",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "aqT6b598qEnuVz5aJFvbi7",
+          "renderModuleFilePath": "plasmic/悠悦易存/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/悠悦易存/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "5LJDqK3A88eRJ",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/悠悦易存/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "wWmqAJQmkA1Y6",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/悠悦易存/icons/PlasmicIcon__Icon2.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "R-g5VsE8mz0f3",
+          "name": "image.png",
+          "filePath": "../public/plasmic/悠悦易存/images/imagepng.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "2bPIgqcxR4_f8",
+        "name": "Screen",
+        "projectId": "aqT6b598qEnuVz5aJFvbi7",
+        "contextFilePath": "plasmic/悠悦易存/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.170",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.170/dist/plasmic.schema.json"
+}
